@@ -1,21 +1,21 @@
-global.owner = '6282275576880'
+global.owner = '628886529913'
 global.max_upload = 200 // 200MB (1 = 1MB)
 
 global.status = {
    wait: Func.texted('bold', 'Processed . . .'),
-   invalid: Func.texted('bold', 'URL is Invalid!'),
-   wrong: Func.texted('bold', 'Wrong format!'),
+   invalid: Func.texted('bold', 'URL Salah!'),
+   wrong: Func.texted('bold', 'format salah!'),
    getdata: Func.texted('bold', 'Scraping metadata . . .'),
    fail: Func.texted('bold', 'Can\'t get metadata!'),
    error: Func.texted('bold', 'Error occurred!'),
-   errorF: Func.texted('bold', 'Sorry this feature is in error.'),
-   premium: Func.texted('bold', 'This feature only for premium user.'),
-   owner: Func.texted('bold', 'This command only for owner.'),
-   god: Func.texted('bold', 'This command only for Master'),
-   group: Func.texted('bold', 'This command will only work in groups.'),
+   errorF: Func.texted('bold', 'Maaf fitur ini eror'),
+   premium: Func.texted('bold', 'Fitur ini khusus PREMIUM.'),
+   owner: Func.texted('bold', 'Command Kusus owner.'),
+   god: Func.texted('bold', 'Command Ini Kusus Master'),
+   group: Func.texted('bold', 'Command ini hanya berlaku di groups.'),
    botAdmin: Func.texted('bold', 'This command will work when I become an admin.'),
-   admin: Func.texted('bold', 'This command only for group admin.'),
-   private: Func.texted('bold', 'Use this command in private chat.')
+   admin: Func.texted('bold', 'Command ini kusus admin grub.'),
+   private: Func.texted('bold', 'Hanya Untuk Chat Pribadi.')
 }
 
 global.users = global.db.users
