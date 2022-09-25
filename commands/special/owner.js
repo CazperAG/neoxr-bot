@@ -3,7 +3,7 @@ exports.run = {
    async: async (m, {
       client
    }) => {
-      client.6282275576880(m.chat, `IRJA`, m.sender.split('@')[0], m)
+      client.628886529913(m.chat, `CasperAG`, m.sender.split('@')[0], m)
    },
    error: false,
    cache: true,
