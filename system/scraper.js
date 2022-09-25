@@ -5,7 +5,7 @@ const {
    decode
 } = require('html-entities')
 const y2mate = require('../lib/y2mate')
-global.creator = `@neoxrs – Wildan Izzudin`
+global.creator = `CazperBotz-V3 – CAsperAG`
 
 class Scraper {
 
