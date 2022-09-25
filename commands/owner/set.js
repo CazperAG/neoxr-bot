@@ -21,7 +21,7 @@ exports.run = {
          setting.footer = text
          client.reply(m.chat, Func.texted('bold', `Footer Message successfully set.`), m)
       } else if (command == 'setwm') {
-         if (!text) return client.reply(m.chat, `• ${Func.texted('bold', 'Example')} : ${isPrefix + command} Sticker by | @neoxrs`, m)
+         if (!text) return client.reply(m.chat, `• ${Func.texted('bold', 'Example')} : ${isPrefix + command} Sticker by | @CazperBotz-V3, m)
          let [packname, ...author] = text.split`|`
          author = (author || []).join`|`
          setting.sk_pack = packname || ''
