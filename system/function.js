@@ -316,11 +316,11 @@ class Function {
             let $ = cheerio.load(html)
             let link = $('input[class="tb"]').attr('value')
             if (typeof link == 'undefined' || link == '') return resolve({
-               creator: '@neoxrs – Wildan Izzudin',
+               creator: '@CazperBotz-V3 – CasperAG',
                status: false
             })
             resolve({
-               creator: '@neoxrs – Wildan Izzudin',
+               creator: '@CazperBotz-V3 – CasperAG',
                status: true,
                data: {
                   url: link
@@ -328,7 +328,7 @@ class Function {
             })
          } catch {
             resolve({
-               creator: '@neoxrs – Wildan Izzudin',
+               creator: '@CazperBotz-V3 – CasperAG',
                status: false
             })
          }
