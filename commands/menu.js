@@ -13,13 +13,13 @@ exports.run = {
             let id = m.chat
             if (id in client.menu) {
                global.statistic[command].hitstat -= 1
-               return client.reply(m.chat, `Sorry @${m.sender.split`@`[0]} ^\nTo avoiding spam, menu is displayed *once every 3 minutes* and you can try to scroll up.`, client.menu[id][0])
+               return client.reply(m.chat, `Sorry @${m.sender.split`@`[0]} ^\nP terdeteksi spam, menu dimatikan *hanya 3 menit* dan kamu bisa mencoba lagi.`, client.menu[id][0])
             }
             client.menu[id] = [
                await client.sendTemplateButton(m.chat, global.setting.cover, menu(isPrefix, m, readmore, setting), '', [{
                      urlButton: {
                         displayText: `Script`,
-                        url: `https://github.com/neoxr/neoxr-bot`
+                        url: `-`
                      }
                   },
                   {
